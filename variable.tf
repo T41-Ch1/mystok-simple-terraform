@@ -39,3 +39,6 @@ variable "max_node_count" {
   description = "Maximum number of nodes in the NodePool"
 }
 
+variable "preemptible" {}
+
+variable "machine_type" {}
